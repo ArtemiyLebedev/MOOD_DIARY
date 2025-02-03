@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+  import 'package:flutter/material.dart';
 import 'package:intl/intl.dart' show DateFormat;
 import 'package:google_fonts/google_fonts.dart';
 import '../mood_diary_page/mood_diary_page_widget.dart';
@@ -40,7 +40,8 @@ class _MonthCalendarScreenState extends State<MonthCalendarScreen> {
                         color: Color.fromRGBO(188, 188, 191, 1),
                         fontWeight: FontWeight.w600,
                         fontSize: 12,
-                      )),
+                      )
+                      ),
                     ),
                   ),
                 );
